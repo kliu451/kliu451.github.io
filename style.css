@@ -1,0 +1,202 @@
+.potato {
+    animation: rainbow 1s infinite;
+    padding: 5px 40px;
+}
+
+body {
+    animation: rainbowbackground 1s infinite;
+    background-image: url("prainbow.gif");
+}
+
+/* Comment or uncomment this first border setting to allow you to see the borders of elements */
+
+.moving {
+    animation: move 3s infinite;
+    margin: auto;
+    width = 50%
+}
+
+.centerimage{
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.subsection {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px 0px;
+    box-shadow: -10px 10px 10px rgb(222, 222, 222);
+}
+
+/* * {
+border: 1px solid black;
+} */
+
+h1 {
+    width : 70%;
+    margin: auto;
+    animation: redbow 3s infinite;
+    /* padding: 0px;
+    margin: 0px; */
+    border: 5px solid black;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+h2 {
+    background-color: #62ded5;
+    animation: greenbow 3s infinite;
+    color: white;
+    border: 3px solid blue;
+    /* padding: 0px; */
+    /* margin: 0px; */
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.nav {
+    background-color: #338487;
+    text-align: left;
+    /* padding: 0px; */
+    /* margin: 0px; */
+    margin:auto;
+    padding: 25px 0px;
+    border: 3px solid black;
+    width : 70%;
+}
+
+.container {
+    width : 70%;
+    margin: auto;
+    /* padding: 0px; */
+    /* margin: 0px; */
+    border: 3px solid black;
+    padding: 40px 0;
+    box-shadow: -10px 10px 10px rgb(222, 222, 222);
+}
+
+.table {
+    width : 20%;
+    margin: auto;
+    /* padding: 0px; */
+    /* margin: 0px; */
+    border: 3px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.a {
+    /* padding: 0px; */
+
+}
+
+img {
+
+}
+
+p{
+    width : 85%;
+    margin : auto;
+    text-align: center;
+    animation: blackwhite 3s infinite;
+}
+
+ol{
+    width : 85%;
+    margin : auto;
+    text-align: center;
+    animation: blackwhite 3s infinite;
+}
+
+@keyframes redbow {
+    from {
+        background-color: red;
+    } 33% {
+          background-color: orange;
+      } 66% {
+            background-color: yellow;
+        } to {
+              background-color: orange;}
+}
+
+@keyframes blackwhite {
+    from {
+        color: black;
+        background-color: white;}
+
+    33% {
+        color: red;
+        background-color: lawngreen;}
+    66% {
+        color: white;
+        background-color: black;}
+    to {
+        color: black;
+        background-color: white;
+    }
+}
+
+
+
+@keyframes greenbow {
+    from {
+        background-color: yellowgreen;}
+    33% {
+        background-color: lawngreen;}
+    66% {
+        background-color: cadetblue;}
+    to {
+        background-color: lawngreen;}
+}
+
+@keyframes rainbowbackground {
+    from {
+        background-color: darkgrey;}
+    17% {
+        background-color: white;}
+    33% {
+        background-color: powderblue;}
+    50% {
+        background-color: darkseagreen;}
+    67% {
+        background-color: limegreen;}
+    83% {
+        background-color: lightgreen;}
+    to {
+        background-color: darkgrey;
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(-300px);
+    }
+    50% {
+        transform: translateX(1300px);
+    }
+    100% {
+        transform: translateX(-300px);
+    }
+}
+
+@keyframes rainbow {
+    from {
+        color: red;}
+    17% {
+        color: orange;}
+    33% {
+        color: yellow;}
+    50% {
+        color: green;}
+    67% {
+        color: blue;}
+    83% {
+        color: indigo;}
+    to {
+        color: violet;
+    }
+}
+
